@@ -1,0 +1,17 @@
+@ARG
+A=M
+D=M 
+@1
+D=D+A
+A=D
+D=M 
+@RESULT
+0;JMP    
+
+(RESULT)
+@ARG
+A=M
+A=A+2
+M=D        
+@END
+0;JMP     
